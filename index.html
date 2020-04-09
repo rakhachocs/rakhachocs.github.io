@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Covid 19</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/library/cycle2.js"></script>
+</head>
+<body>
+
+        
+        <nav>
+          
+            <div class="btn" id="btn" onclick="toggleBtn()">
+                <span id="before"></span>
+                <span id="tengah"></span>
+                <span id="after"></span>
+            </div>
+            <ul>
+                <li><a href="#" class="border-link" onclick="tutupBar()">Home</a></li>
+                <li><a href="tentang.html" class="border-link" onclick="tutupBar()">Tentang</a></li>
+                <li><a href="#statistic" class="border-link" onclick="tutupBar()">Statistic</a></li>
+                <li><a href="#galeri" class="border-link" onclick="tutupBar()">Galeri</a></li>
+                <li><a id="daftar" href="#berita" onclick="tutupBar()">Berita</a></li>
+                <div class="fixed"></div>
+               
+            </ul>
+            <div class="fixed"></div>
+            <a href="#up"><i class="fas fa-chevron-circle-up" id="btn-up"></i></a>
+        </nav>
+
+        <div id="side-bar">
+                        <li></li><a href="#" class="border-link" onclick="tutupBar()">Home</a></li>
+                        <li></li><a href="tentang.html" class="border-link" onclick="tutupBar()">Tentang</a></li>
+                        <li></li><a href="#statistic" class="border-link" onclick="tutupBar()">Statistic</a></li>
+                        <li></li><a href="#galeri" class="border-link" onclick="tutupBar()">Galeri</a></li>
+                        <li></li><a id="daftar" href="#berita" onclick="tutupBar()">Berita</a></li>
+                        <div class="fixed"></div>
+                       
+        </div>
+
+        <div class="container1" id="up">
+            <div class="cycle-slideshow" data-cycle-slides=".slide">
+                <span class="cycle-pager"></span>
+                
+                     <div class="slide" id="slide2">
+                             <div class="wrapper">
+                                 <div class="box" id="tulisan">
+                                     <h2>Menyebarnya pandemi corona</h2>
+                                     <p>Infeksi virus ini disebut COVID-19 dan pertama
+                                          kali ditemukan di kota Wuhan, Cina, pada akhir 
+                                          Desember 2019. Virus ini menular dengan cepat dan telah
+                                           menyebar ke wilayah lain di Cina dan ke beberapa negara, termasuk Indonesia. </p>
+                                     <div class="link">
+                                         <a href="#tentang">Pelajari Dahulu</a>
+ 
+                                     </div>
+                                 </div>
+                                 <div class="fixed"></div>
+                             </div>
+                         </div>
+ 
+                         <div class="slide">
+                                 <div class="wrapper">
+                                     <div class="box" id="gambar">
+                                         <img src="img/—Pngtree—hand drawn 2019 new corona_5329322.png" alt="">
+                                     </div>
+                                     <div class="box" id="tulisan">
+                                         <h2>severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)</h2>
+                                         <p>dikenal dengan nama virus Corona adalah jenis baru dari coronavirus
+                                              yang menular ke manusia. Virus ini bisa menyerang siapa saja, baik
+                                               bayi, anak-anak, orang dewasa, lansia, ibu hamil, maupun ibu menyusui. 
+                                         </p>
+                                     </div>
+                                     <div class="fixed"></div>
+                                 </div>
+                             </div>
+            </div>
+             
+         </div>
+
+        <!-- statistic -->
+        <div class="container2" id="statistic">
+            <h2>Data statistik Indonesia | Data statistik seluruh dunia</h2>
+            <div class="card">
+                <div class="box">
+                    <div class="statistik">
+                        <div class="diagram" id="kasus1">
+                            <div class="detail"></div>
+                        </div>
+                        <div class="deskripsi">
+                            <h3>Kasus</h3>
+                            <h5>2.956</h5>
+                        </div>
+                    </div>
+
+
+                    <div class="statistik">
+                        <div class="diagram" id="sembuh1">
+                            <div class="detail"></div>
+                        </div>
+                        <div class="deskripsi">
+                            <h3>Sembuh</h3>
+                            <h5>222</h5>
+
+                        </div>
+                    </div>
+
+                    <div class="statistik">
+                        <div class="diagram" id="meninggal1">
+                            <div class="detail"></div>
+                        </div>
+                        <div class="deskripsi">
+                            <h3>Meninggal</h3>
+                            <h5>240</h5>
+
+                        </div>
+                    </div>
+
+                    <div class="statistik">
+                        <div class="diagram" id="rawat1">
+                            <div class="detail"></div>
+                        </div>
+                        <div class="deskripsi">
+                            <h3>Dirawat</h3>
+                            <h5>2.494</h5>
+
+                        </div>
+                    </div>
+                    <div class="fixed"></div>
+                </div>
+
+
+                <div class="box">
+                     <div class="statistik">
+                        <div class="diagram" id="kasus2">
+                            <div class="detail"></div>
+                        </div>
+                        <div class="deskripsi">
+                            <h3>Kasus</h3>
+                            <h5>1.350.523</h5>
+                        </div>
+                    </div>
+
+
+                    <div class="statistik">
+                        <div class="diagram" id="sembuh2">
+                            <div class="detail"></div>
+                        </div>
+                        <div class="deskripsi">
+                            <h3>Sembuh</h3>
+                            <h5>287.679</h5>
+
+                        </div>
+                    </div>
+
+                    <div class="statistik">
+                        <div class="diagram" id="meninggal2">
+                            <div class="detail"></div>
+                        </div>
+                        <div class="deskripsi">
+                            <h3>Meninggal</h3>
+                            <h5>74.870</h5>
+
+                        </div>
+                    </div>
+
+                    <div class="statistik">
+                        <div class="diagram" id="rawat2">
+                            <div class="detail"></div>
+                        </div>
+                        <div class="deskripsi">
+                            <h3>Dirawat</h3>
+                            <h5>989.288</h5>
+
+                        </div>
+                    </div>
+                    <div class="fixed"></div>
+                </div>
+
+                <div class="fixed"></div>
+            </div>
+        </div>
+        <!-- statistik -->
+
+        <!-- berita -->
+
+        <div class="container3" id="berita">
+            <div class="card">
+                <h2>Berita terkini</h2>
+                <h2>PSBB DKI Kendaraan Tak Dibatasi, Penumpang Dikurangi</h2>
+                <p><span>Jakarta -</span> Pembatasan Sosial Berskala Besar (PSBB) akan mulai diterapkan di DKI Jakarta pada
+                     10 April 2020 mendatang. Moda transportasi menjadi salah satu yang dilakukan pembatasan.</p>
+                <p>Pembatasan yang dimaksud adalah <span>mengenai jumlah penumpang dan jam operasional</span>. Sementara, untuk volume kendaraan,
+                     tak ada pembatasan saat PSBB diberlakukan.</p>
+                <p>Hal itu berlaku bagi transportasi umum maupun kendaraan pribadi. <span>Tak ada larangan bagi mereka beroperasi</span>. Namun, physical distancing
+                     wajib ditaati demi mencegah penyebaran virus Corona (COVID-19).</p>
+                <p>"Volume kendaraan itu dikurangi, jadi yang biasanya di situ <span>kapasitasnya 50 jadi 25 gerbong, yang kapasitasnya 100 jadi 50</span>. Tetapi jumlah kendaraannya
+                     tidak berkurang. Jam operasinya berkurang dari jam 6 pagi sampai jam 6 sore," <span>tutur Anies</span>.</p>
+                     <p>sumber : <a href="https://news.detik.com/berita/d-4970649/psbb-dki-kendaraan-tak-dibatasi-penumpang-dikurangi?_ga=2.196339880.588189752.1586324609-222294470.1586324584">www.inet.detik.com</a></p>
+                    
+
+
+                <h2>Negara yang Punya Imunisasi BCG Lebih 'Kebal' Virus Corona</h2>
+                <p><span>Jakarta -</span> Ilmuwan menemukan fakta mengejutkan. Tingkat kematian akibat virus Corona, lebih rendah di negara yang punya imunisasi BCG.
+                    Tahu imunisasi BCG kan? Setiap anak di Indonesia melakukannya sebagai imunisasi terhadap TBC. Tapi ternyata tidak semua negara di dunia 
+                    melakukannya dan rupanya jadi ada keterkaitannya dengan kekebalan menghadapi virus corona.</p>
+                <p>6 Ilmuwan dari <span>Department of Biomedical Sciences, NYIT College of Osteopathic Medicine, New York 
+                    Institute of Technology</span> meneliti hubungan imunisasi BCG dan tingkat kematian akibat COVID-19. Dilihat detikInet, <span>Kamis (9/4/2020)</span> penelitian mereka baru dipublikasikan
+                    terbatas di medRxiv, yang artinya ada disclaimer belum peer reviewed atau penelaahan sejawat.</p>
+                <p>Imunisasi BCG menurut tim, <span>mungkin memberikan perlindungan jangka panjang</span> ketika akhirnya ada virus corona. Nah, penelitian para ilmuwan tersebut baru sampai tahap ini
+                     Sekali lagi, <span>temuan awal ini memang harus diuji lebih lanjut oleh para pakar.</span></p>
+                <p>sumber : <a href="https://inet.detik.com/science/d-4970654/negara-yang-punya-imunisasi-bcg-lebih-kebal-virus-corona?_ga=2.175386406.588189752.1586324609-222294470.1586324584">www.inet.detik.com</a></p>
+            </div>
+        </div>
+
+        <!-- berita -->
+
+
+        <!-- galeri -->
+        <div class="container4" id="galeri">
+            <div class="card">
+                <div class="box">
+                    <div class="tulisan">
+                        <h3>Documentasi</h3>
+                        <p>Covid-19</p>
+                    </div>
+                    <img src="img/sanitizerMasker.jpg" alt="" srcset="">
+                </div>
+                
+                <div class="box">
+                    <div class="tulisan">
+                        <h3>Documentasi</h3>
+                        <p>Covid-19</p>
+                    </div>
+                    <img src="img/annie-spratt-_S0XzuaZLas-unsplash.jpg" alt="" srcset="">
+
+                </div>
+
+                <div class="box">
+                    <div class="tulisan">
+                        <h3>Documentasi</h3>
+                        <p>Covid-19</p>
+                    </div>
+                    <img src="img/tedward-quinn-w5qiX5rc6Jg-unsplash.jpg" alt="" srcset="">
+
+                </div>
+
+                <div class="box">
+                    <div class="tulisan">
+                        <h3>Documentasi</h3>
+                        <p>Covid-19</p>
+                    </div>
+                    <img src="img/cuci tangan.jpg" alt="" srcset="">
+
+                </div>
+
+                <div class="box">
+                    <div class="tulisan">
+                        <h3>Documentasi</h3>
+                        <p>Covid-19</p>
+                    </div>
+                    <img src="img/jabat tangan.jpg" alt="" srcset="">
+
+                </div>
+
+                <div class="box">
+                    <div class="tulisan">
+                        <h3>Documentasi</h3>
+                        <p>Covid-19</p>
+                    </div>
+                    <img src="img/dr-berdiri.jpg" alt="" srcset="">
+
+                </div>
+
+                <div class="fixed"></div>
+            </div>
+        </div>
+
+       
+
+
+        <div class="footer">
+            <div class="tulisan">
+                    <p>&copy;2020.Rakha wahyuanda - All Rights Reserved</p>
+            </div>
+
+            <div class="icon">
+                    <div class="fb">
+                            <a href="https://www.facebook.com/RakhaChocs"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="ig">
+                            <a href="https://www.instagram.com/rakha_chocs/"><i class="fab fa-instagram"></i></a>
+                    </div>
+            </div>
+
+            <div class="fixed"></div>
+        </div>
+
+        
+
+<script src="js/navigasi.js"></script>
+</body>
+</html>
